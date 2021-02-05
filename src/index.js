@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ConteneurGlobal from './ConteneurGlobal';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ConteneurGlobal />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('appli')
 );
