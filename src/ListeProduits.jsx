@@ -1,4 +1,4 @@
-import './ListeProduits.css';
+import './ListeProduits.scss';
 import Produit from './Produit';
 import tabProduits from './data/produits.json';
 
@@ -9,9 +9,10 @@ export default function ListeProduits(props){
     //const notesArrondies = notes.map(function(note) {
        // return note.toFixed(1);
    // })
+
     console.log("Tableau des notes arrondies", notesArrondies);
     //tableau qui va contenir les composants produits requis
-    let composantProduit=[];
+    /*let composantProduit=[];*/
 
     for(let i=0; i<tabProduits.length; i++) 
 
@@ -27,15 +28,15 @@ export default function ListeProduits(props){
        // composantProduit.push(<Produit nom={prd.nom} prix={prd.prix} id={prd.id} />)
     //})
     return(
-        <>
+        <div className="ListeProduits">
             <h2>Produits disponibles</h2>
-            <ul className="ListeProduits">
+            <ul className="ul-produits">
                 {
                     tabProduits.map(function(prd) {
                         return <Produit key={prd.id} nom={prd.nom} prix={prd.prix} id={prd.id} />
                     })
                 }
             </ul>
-        </>
+        </div>
     );
 }

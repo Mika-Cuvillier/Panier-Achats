@@ -1,11 +1,11 @@
-import './PiedDePage.css';
+import './PiedDePage.scss';
 
 // Composant PiedDePage
 function PiedDePage(props){
     const annee = (new Date()).getFullYear();
 
     return(
-      <footer>
+      <footer className="PiedDePage">
         <p>&copy;{annee} - TIM - Tous droits réservés</p>
       </footer>
     );

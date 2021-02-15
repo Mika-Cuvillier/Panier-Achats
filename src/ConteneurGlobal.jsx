@@ -1,4 +1,4 @@
-import './ConteneurGlobal.css';
+import './ConteneurGlobal.scss';
 import Entete from './Entete';
 import ListeProduits from './ListeProduits';
 import PiedDePage from './PiedDePage';
