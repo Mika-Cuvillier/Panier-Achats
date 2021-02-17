@@ -2,9 +2,19 @@ import BtnAjoutPanier from './BtnAjoutPanier';
 import './Produit.scss';
 
 export default function Produit(props){
+    const [panier, setPanier] = props.etatPanier;
 
     function ajouterAuPanier(){
-
+        const article = panier[props.id];
+        if(article){
+            article.qte += 1; 
+        }else{
+            panier[props.id] = {prix: props.prix, qte: 1};
+        }
+        
+        console.log(panier);
+        // Tant qu'on a pas fait appel a setPanier, React ne sait pas que l'état du panier est différent
+        setPanier({...panier});
     }
     return(
         <li className="Produit"> 

@@ -3,8 +3,8 @@ import './BtnAjoutPanier.scss';
 
 export default function BtnAjoutPanier(props){
     return(
-        <Badge badgeContent="5" color="primary">
-            <button className="BtnAjoutPanier" >Ajouter au panier</button>
+        <Badge badgeContent={0} color="primary">
+            <button className="BtnAjoutPanier" onClick={props.onClick} >Ajouter au panier</button>
         </Badge>
     );
 }
