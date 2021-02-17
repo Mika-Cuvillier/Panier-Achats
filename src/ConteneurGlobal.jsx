@@ -1,20 +1,23 @@
-import './ConteneurGlobal.css';
+import { useState } from 'react';
+import './ConteneurGlobal.scss';
 import Entete from './Entete';
 import ListeProduits from './ListeProduits';
 import PiedDePage from './PiedDePage';
-/*
-composant React
-*/
-function ConteneurGlobal() {
+
+export default function ConteneurGlobal() {
+  
+  //utiliser la gestion de l'état avec "useState"
+  const etatPanier = useState({});
+
   return (
     <div className="ConteneurGlobal">
-      <Entete />
+      <Entete etatPanier={etatPanier} />
       <section className="contenuPrincipal">
-          <ListeProduits />
+          <ListeProduits etatPanier={etatPanier} />
       </section>
       <PiedDePage />
     </div>
   );
 }
 
-export default ConteneurGlobal;
+

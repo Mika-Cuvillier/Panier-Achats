@@ -1,0 +1,32 @@
+[
+  {
+      "id": "prd0001",
+      "nom": "T-shirt à mache longue blanc pour femme",
+      "prix": 19.95
+  },
+  {
+    "id": "prd0002",
+    "nom": "T-shirt à mache longue rose pour femme",
+    "prix": 9.99
+},
+{
+    "id": "prd0003",
+    "nom": "T-shirt à mache longue rouge pour femme",
+    "prix": 12.67
+},
+{
+    "id": "prd0004",
+    "nom": "T-shirt à mache longue blanc pour homme",
+    "prix": 250.20
+},
+{
+    "id": "prd0005",
+    "nom": "T-shirt à mache longue rouge pour homme",
+    "prix": 250.20
+},
+{
+    "id": "prd0006",
+    "nom": "T-shirt à mache longue noir pour homme",
+    "prix": 250.20
+}
+]
