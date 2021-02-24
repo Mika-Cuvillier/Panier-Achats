@@ -1,6 +1,7 @@
 import './Entete.scss';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Badge } from '@material-ui/core';
+import SommairePanier from './SommairePanier';
 
 function Entete(props) {
     const[panier, setPanier] = props.etatPanier;
@@ -17,6 +18,7 @@ function Entete(props) {
             <Badge badgeContent={Object.values(panier).reduce((acc, article) => acc + article.qte, 0)} color="secondary">
             <ShoppingCartIcon/>
             </Badge>
+            <SommairePanier panier={panier} />
             </li>
           <li>Mon compte</li>
         </ul>

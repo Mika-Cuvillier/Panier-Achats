@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+#appli {
+  width: 90%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=index.css.map */

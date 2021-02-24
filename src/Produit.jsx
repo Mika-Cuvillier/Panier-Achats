@@ -16,6 +16,14 @@ export default function Produit(props){
         // Tant qu'on a pas fait appel a setPanier, React ne sait pas que l'état du panier est différent
         setPanier({...panier});
     }
+    let qteArticlePanier = 0;
+    let texteBtnAjout = "Ajouter au panier";
+    let btnCouleurAjout ="";
+    if(panier[props.id]){
+        qteArticlePanier = panier[props.id].qte;
+        texteBtnAjout = "Augmenter la quantité"
+        btnCouleurAjout = "#900";
+    }
     return(
         <li className="Produit"> 
             <img src={'images-produits/' + props.id + '.webp'} alt={props.nom} />
@@ -23,7 +31,7 @@ export default function Produit(props){
                 <p className="nom">{props.nom}</p>
                 <p className="prix">{props.prix} $CA</p>
             </div>
-            <BtnAjoutPanier onClick={ajouterAuPanier} />
+            <BtnAjoutPanier onClick={ajouterAuPanier} qte={qteArticlePanier} texte={texteBtnAjout} couleur={btnCouleurAjout} />
         </li>
     );
 }

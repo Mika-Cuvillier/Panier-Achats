@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,cAAc;EAC1B,OAAO,EAAE,QAAQ;EACjB,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;CAMpB;;AAZD,AAOI,WAPO,CAOP,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,GAAG;EACf,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "src/PiedDePage.scss"
+    ],
+    "names": [],
+    "file": "PiedDePage.css"
+}

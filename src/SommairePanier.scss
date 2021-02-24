@@ -1,0 +1,14 @@
+.SommairePanier{
+    background-color: crimson;
+    position: absolute;
+    height: 40px;
+    width: auto;
+    bottom: -40px;
+    right: 0;
+    padding: 5px;
+    line-height: 30px;
+}
+span:not(:last-of-type){
+    padding: 0 3px;
+    border-right: 1px solid white;
+}
