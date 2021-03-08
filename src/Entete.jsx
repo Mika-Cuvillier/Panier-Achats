@@ -2,16 +2,17 @@ import './Entete.scss';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Badge } from '@material-ui/core';
 import SommairePanier from './SommairePanier';
+import { Link, NavLink } from 'react-router-dom';
 
 function Entete(props) {
     const[panier, setPanier] = props.etatPanier;
     return (
       <header className="Entete">
-        <div className="logo">Logo</div>
+        <div className="logo"><Link to="/accueil">Logo</Link></div>
         <ul className="navPrincipale">
-          <li>Produits</li>
-          <li>À propos de nous</li>
-          <li>Contactez-nous</li>
+          <li><Link to="/nos-produits">Produits</Link></li>
+          <li><Link to="/a-propos-de-nous">À propos de nous</Link></li>
+          <li><Link to="/contactez-nous">Contactez-nous</Link></li>
         </ul>
         <ul className="navUtilisateur">
           <li>
