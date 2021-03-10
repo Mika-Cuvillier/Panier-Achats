@@ -1,0 +1,44 @@
+.Entete {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  height: 60px;
+  margin: 0;
+  padding: 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.Entete ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  font-size: 0.8em;
+}
+
+.Entete ul li {
+  cursor: pointer;
+}
+
+.Entete ul li:not(:last-of-type) {
+  padding-right: 15px;
+  border-right: 1px solid white;
+}
+
+.Entete ul li:not(:first-of-type) {
+  padding-left: 15px;
+}
+
+.Entete ul.navPrincipale {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.Entete ul.navUtilisateur {
+  margin-left: auto;
+}
+/*# sourceMappingURL=Entete.css.map */

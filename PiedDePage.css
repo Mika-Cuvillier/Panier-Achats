@@ -1,0 +1,15 @@
+.PiedDePage {
+  height: 30px;
+  background-color: #aaa;
+  border-top: 2px solid #444;
+  padding: 3px 20px;
+  font-size: 0.8em;
+  line-height: 100%;
+}
+
+.PiedDePage p {
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+}
+/*# sourceMappingURL=PiedDePage.css.map */

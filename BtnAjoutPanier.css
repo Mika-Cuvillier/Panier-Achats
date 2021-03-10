@@ -1,0 +1,15 @@
+.BtnAjoutPanier {
+  background-color: #388e3c;
+  color: white;
+  font-size: 0.8em;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.BtnAjoutPanier.rouge {
+  background-color: crimson;
+}
+/*# sourceMappingURL=BtnAjoutPanier.css.map */
