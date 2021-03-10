@@ -10,8 +10,17 @@ import { Switch, Route } from 'react-router-dom';
 
 export default function ConteneurGlobal() {
   
+  // Vérifier s'ily a quelque chose dans local storage avec la clé 'panier-4pa
+  let panier = {};
+  if(window.localStorage.getItem('panier-4pa')){
+    panier = JSON.parse(window.localStorage.getItem('panier-4pa'));
+  }
+
   //utiliser la gestion de l'état avec "useState"
-  const etatPanier = useState({});
+  const etatPanier = useState(panier);
+
+  // Sauvegarder le panier dans localStorage à chaques fois que l'état du panier est muté.
+  window.localStorage.setItem('panier-4pa', JSON.stringify(etatPanier[0]));
 
   return (
     <div className="ConteneurGlobal">
