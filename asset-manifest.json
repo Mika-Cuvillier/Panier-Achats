@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.26cb1287.chunk.css",
-    "main.js": "/static/js/main.be109188.chunk.js",
-    "main.js.map": "/static/js/main.be109188.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.22bd27bf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.22bd27bf.js.map",
-    "static/js/2.943e9640.chunk.js": "/static/js/2.943e9640.chunk.js",
-    "static/js/2.943e9640.chunk.js.map": "/static/js/2.943e9640.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.26cb1287.chunk.css.map": "/static/css/main.26cb1287.chunk.css.map",
-    "static/js/2.943e9640.chunk.js.LICENSE.txt": "/static/js/2.943e9640.chunk.js.LICENSE.txt"
+    "main.css": "/Panier-Achats/static/css/main.288c7260.chunk.css",
+    "main.js": "/Panier-Achats/static/js/main.76333857.chunk.js",
+    "main.js.map": "/Panier-Achats/static/js/main.76333857.chunk.js.map",
+    "runtime-main.js": "/Panier-Achats/static/js/runtime-main.e037527d.js",
+    "runtime-main.js.map": "/Panier-Achats/static/js/runtime-main.e037527d.js.map",
+    "static/js/2.0124e50a.chunk.js": "/Panier-Achats/static/js/2.0124e50a.chunk.js",
+    "static/js/2.0124e50a.chunk.js.map": "/Panier-Achats/static/js/2.0124e50a.chunk.js.map",
+    "index.html": "/Panier-Achats/index.html",
+    "static/css/main.288c7260.chunk.css.map": "/Panier-Achats/static/css/main.288c7260.chunk.css.map",
+    "static/js/2.0124e50a.chunk.js.LICENSE.txt": "/Panier-Achats/static/js/2.0124e50a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.22bd27bf.js",
-    "static/js/2.943e9640.chunk.js",
-    "static/css/main.26cb1287.chunk.css",
-    "static/js/main.be109188.chunk.js"
+    "static/js/runtime-main.e037527d.js",
+    "static/js/2.0124e50a.chunk.js",
+    "static/css/main.288c7260.chunk.css",
+    "static/js/main.76333857.chunk.js"
   ]
 }
