@@ -1,13 +1,3 @@
-.ListeProduits {
-  margin: 40px;
-}
-
-.ListeProduits h2 {
-  margin: 0 0 20px 0;
-  padding: 0 0 10px 0;
-  border-bottom: 2px solid #666;
-}
-
 .ListeProduits .ul-produits {
   list-style: none;
   display: flex;
